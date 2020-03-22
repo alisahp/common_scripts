@@ -8,7 +8,7 @@ logging.getLogger().setLevel(logging.INFO)
 
 g = Github(os.environ.get("GIT_TOKEN"))
 
-organization_name = "fuchicorp"
+organization_name = "mybestsea"
 root_access_teams = ["devops", "bastion_root"]
 non_root_access_teams = ["dev", "members"]
 
